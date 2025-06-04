@@ -9,7 +9,7 @@ Usage:
     python belvedere_rss_generator.py [output_file]
 
 Dependencies:
-    pip install requests beautifulsoup4 lxml
+    pip install requests beautifulsoup4 lxml python-dateutil
 """
 
 import re
@@ -19,6 +19,12 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 from urllib.parse import urljoin, urlparse
 import xml.etree.ElementTree as ET
+
+try:
+    from dateutil import parser as date_parser
+    HAS_DATEUTIL = True
+except ImportError:
+    HAS_DATEUTIL = False
 
 class BelvedereRSSGenerator:
     def __init__(self):
@@ -38,6 +44,62 @@ class BelvedereRSSGenerator:
             print(f"Error fetching {url}: {e}")
             return None
     
+    def parse_date_string(self, date_str):
+        """Parse date string with fallback methods"""
+        if HAS_DATEUTIL:
+            try:
+                parsed_date = date_parser.parse(date_str)
+                return parsed_date.strftime('%a, %d %b %Y %H:%M:%S %z')
+            except:
+                pass
+        
+        # Fallback manual parsing for common formats
+        # Handle formats like "May 20, 2025", "June 2, 2025", etc.
+        month_map = {
+            'january': 1, 'february': 2, 'march': 3, 'april': 4,
+            'may': 5, 'june': 6, 'july': 7, 'august': 8,
+            'september': 9, 'october': 10, 'november': 11, 'december': 12,
+            'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'jun': 6,
+            'jul': 7, 'aug': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dec': 12
+        }
+        
+        # Try to match "Month Day, Year" format
+        month_day_year = re.match(r'([A-Za-z]+)\s+(\d{1,2}),?\s+(\d{4})', date_str.strip())
+        if month_day_year:
+            month_name = month_day_year.group(1).lower()
+            day = int(month_day_year.group(2))
+            year = int(month_day_year.group(3))
+            
+            if month_name in month_map:
+                try:
+                    dt = datetime(year, month_map[month_name], day, 12, 0, 0, tzinfo=timezone.utc)
+                    return dt.strftime('%a, %d %b %Y %H:%M:%S %z')
+                except:
+                    pass
+        
+        # Default fallback
+        return datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S %z')
+
+    def extract_date_from_text(self, text):
+        """Extract publication date from article text"""
+        # Look for "Posted on [date]" pattern
+        date_patterns = [
+            r'Posted on ([A-Za-z]+ \d{1,2}, \d{4})',
+            r'Published on ([A-Za-z]+ \d{1,2}, \d{4})',
+            r'([A-Za-z]+ \d{1,2}, \d{4})',
+            r'(\d{1,2}/\d{1,2}/\d{4})',
+            r'(\d{4}-\d{1,2}-\d{1,2})'
+        ]
+        
+        for pattern in date_patterns:
+            match = re.search(pattern, text, re.IGNORECASE)
+            if match:
+                date_str = match.group(1)
+                return self.parse_date_string(date_str)
+        
+        # Default to current time if no date found
+        return datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S %z')
+
     def extract_article_info(self, article_element):
         """Extract title, link, and description from an article element"""
         info = {
@@ -69,11 +131,18 @@ class BelvedereRSSGenerator:
         else:
             description = full_text
         
+        # Extract publication date from the text
+        info['pub_date'] = self.extract_date_from_text(full_text)
+        
+        # Clean up description - remove "Posted on [date]" prefix
+        description = re.sub(r'^Posted on [A-Za-z]+ \d{1,2}, \d{4}\s*', '', description, flags=re.IGNORECASE)
+        description = re.sub(r'^Published on [A-Za-z]+ \d{1,2}, \d{4}\s*', '', description, flags=re.IGNORECASE)
+        
         # Limit description length and clean it up
         if len(description) > 500:
             description = description[:500] + "..."
         
-        info['description'] = description
+        info['description'] = description.strip()
         
         return info
     

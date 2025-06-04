@@ -3,13 +3,13 @@
 City of Belvedere News RSS Feed Generator
 
 This script scrapes the City of Belvedere news page and generates an RSS feed
-from the articles found on the page.
+from the articles found on the page. All dates are formatted in PST (UTC-8).
 
 Usage:
     python belvedere_rss_generator.py [output_file]
 
 Dependencies:
-    pip install requests beautifulsoup4 lxml python-dateutil pytz
+    pip install requests beautifulsoup4 lxml python-dateutil
 """
 
 import re
@@ -36,36 +36,41 @@ class BelvedereRSSGenerator:
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         }
-        # Set up Pacific timezone
+        # Set up Pacific timezone with proper PST/PDT handling
         if HAS_PYTZ:
             self.pacific_tz = pytz.timezone('America/Los_Angeles')
         else:
-            # Fallback: PST is UTC-8, PDT is UTC-7
-            # For simplicity, we'll use PST (UTC-8) as a rough approximation
-            self.pacific_tz = timezone(timedelta(hours=-8))
+            # Fallback: manual PST/PDT calculation
+            self.pacific_tz = None
     
-    def get_pacific_timezone(self, date_obj=None):
-        """Get Pacific timezone, handling PST/PDT automatically"""
+    def get_pacific_timezone(self, dt=None):
+        """Get Pacific timezone (PST/PDT) with proper DST handling"""
         if HAS_PYTZ:
             return self.pacific_tz
         else:
-            # Simple fallback - assume PST (UTC-8) for winter, PDT (UTC-7) for summer
-            # This is a rough approximation
-            if date_obj:
-                # Rough DST calculation: DST typically runs March-November
-                month = date_obj.month
-                if 3 <= month <= 11:  # Rough DST period
-                    return timezone(timedelta(hours=-7))  # PDT
-                else:
-                    return timezone(timedelta(hours=-8))  # PST
+            # Manual DST calculation fallback
+            # DST typically: 2nd Sunday in March to 1st Sunday in November
+            if dt is None:
+                dt = datetime.now()
+            
+            year = dt.year
+            
+            # Calculate DST start (2nd Sunday in March)
+            march_first = datetime(year, 3, 1)
+            days_to_first_sunday = (6 - march_first.weekday()) % 7
+            first_sunday_march = march_first + timedelta(days=days_to_first_sunday)
+            dst_start = first_sunday_march + timedelta(days=7)  # 2nd Sunday
+            
+            # Calculate DST end (1st Sunday in November)
+            november_first = datetime(year, 11, 1)
+            days_to_first_sunday = (6 - november_first.weekday()) % 7
+            dst_end = november_first + timedelta(days=days_to_first_sunday)
+            
+            # Check if date is in DST period
+            if dst_start <= dt.replace(tzinfo=None) < dst_end:
+                return timezone(timedelta(hours=-7))  # PDT
             else:
-                # Default to current time DST calculation
-                now = datetime.now()
-                month = now.month
-                if 3 <= month <= 11:
-                    return timezone(timedelta(hours=-7))  # PDT
-                else:
-                    return timezone(timedelta(hours=-8))  # PST
+                return timezone(timedelta(hours=-8))  # PST
     
     def fetch_page(self, url):
         """Fetch the content of a web page"""
@@ -78,20 +83,22 @@ class BelvedereRSSGenerator:
             return None
     
     def parse_date_string(self, date_str):
-        """Parse date string with fallback methods, using Pacific Time"""
+        """Parse date string with fallback methods, using Pacific Time (PST/PDT)"""
         if HAS_DATEUTIL and HAS_PYTZ:
             try:
-                # Parse the date and localize to Pacific Time
+                # Parse the date
                 parsed_date = date_parser.parse(date_str)
                 if parsed_date.tzinfo is None:
-                    # If no timezone info, assume Pacific Time
+                    # If no timezone info, localize to Pacific Time
                     parsed_date = self.pacific_tz.localize(parsed_date.replace(hour=12, minute=0, second=0))
+                else:
+                    # Convert to Pacific Time
+                    parsed_date = parsed_date.astimezone(self.pacific_tz)
                 return parsed_date.strftime('%a, %d %b %Y %H:%M:%S %z')
             except:
                 pass
         
         # Fallback manual parsing for common formats
-        # Handle formats like "May 20, 2025", "June 2, 2025", etc.
         month_map = {
             'january': 1, 'february': 2, 'march': 3, 'april': 4,
             'may': 5, 'june': 6, 'july': 7, 'august': 8,
@@ -109,17 +116,25 @@ class BelvedereRSSGenerator:
             
             if month_name in month_map:
                 try:
-                    # Create datetime object and apply Pacific timezone
+                    # Create datetime object
                     dt = datetime(year, month_map[month_name], day, 12, 0, 0)
+                    # Apply appropriate Pacific timezone (PST or PDT)
                     pacific_tz = self.get_pacific_timezone(dt)
-                    dt_pacific = dt.replace(tzinfo=pacific_tz)
+                    if HAS_PYTZ:
+                        dt_pacific = self.pacific_tz.localize(dt)
+                    else:
+                        dt_pacific = dt.replace(tzinfo=pacific_tz)
                     return dt_pacific.strftime('%a, %d %b %Y %H:%M:%S %z')
                 except:
                     pass
         
         # Default fallback - use current time in Pacific timezone
-        pacific_tz = self.get_pacific_timezone()
-        default_time = datetime.now(pacific_tz)
+        now = datetime.now()
+        pacific_tz = self.get_pacific_timezone(now)
+        if HAS_PYTZ:
+            default_time = self.pacific_tz.localize(now)
+        else:
+            default_time = now.replace(tzinfo=pacific_tz)
         return default_time.strftime('%a, %d %b %Y %H:%M:%S %z')
 
     def extract_date_from_text(self, text):
@@ -140,15 +155,23 @@ class BelvedereRSSGenerator:
                 return self.parse_date_string(date_str)
         
         # Default to current time in Pacific timezone if no date found
-        pacific_tz = self.get_pacific_timezone()
-        default_time = datetime.now(pacific_tz)
+        now = datetime.now()
+        pacific_tz = self.get_pacific_timezone(now)
+        if HAS_PYTZ:
+            default_time = self.pacific_tz.localize(now)
+        else:
+            default_time = now.replace(tzinfo=pacific_tz)
         return default_time.strftime('%a, %d %b %Y %H:%M:%S %z')
 
     def extract_article_info(self, article_element):
         """Extract title, link, and description from an article element"""
         # Get current Pacific time for default
-        pacific_tz = self.get_pacific_timezone()
-        default_time = datetime.now(pacific_tz)
+        now = datetime.now()
+        pacific_tz = self.get_pacific_timezone(now)
+        if HAS_PYTZ:
+            default_time = self.pacific_tz.localize(now)
+        else:
+            default_time = now.replace(tzinfo=pacific_tz)
         
         info = {
             'title': '',
@@ -270,8 +293,12 @@ class BelvedereRSSGenerator:
         channel = ET.SubElement(rss, 'channel')
         
         # Get current time in Pacific timezone for lastBuildDate
-        pacific_tz = self.get_pacific_timezone()
-        current_time_pacific = datetime.now(pacific_tz)
+        now = datetime.now()
+        pacific_tz = self.get_pacific_timezone(now)
+        if HAS_PYTZ:
+            current_time_pacific = self.pacific_tz.localize(now)
+        else:
+            current_time_pacific = now.replace(tzinfo=pacific_tz)
         
         # Add channel metadata
         ET.SubElement(channel, 'title').text = 'City of Belvedere News'

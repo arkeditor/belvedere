@@ -9,22 +9,25 @@ Usage:
     python belvedere_rss_generator.py [output_file]
 
 Dependencies:
-    pip install requests beautifulsoup4 lxml python-dateutil
+    pip install requests beautifulsoup4 lxml python-dateutil pytz
 """
 
 import re
 import sys
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from urllib.parse import urljoin, urlparse
 import xml.etree.ElementTree as ET
 
 try:
     from dateutil import parser as date_parser
+    import pytz
     HAS_DATEUTIL = True
+    HAS_PYTZ = True
 except ImportError:
     HAS_DATEUTIL = False
+    HAS_PYTZ = False
 
 class BelvedereRSSGenerator:
     def __init__(self):
@@ -33,6 +36,36 @@ class BelvedereRSSGenerator:
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         }
+        # Set up Pacific timezone
+        if HAS_PYTZ:
+            self.pacific_tz = pytz.timezone('America/Los_Angeles')
+        else:
+            # Fallback: PST is UTC-8, PDT is UTC-7
+            # For simplicity, we'll use PST (UTC-8) as a rough approximation
+            self.pacific_tz = timezone(timedelta(hours=-8))
+    
+    def get_pacific_timezone(self, date_obj=None):
+        """Get Pacific timezone, handling PST/PDT automatically"""
+        if HAS_PYTZ:
+            return self.pacific_tz
+        else:
+            # Simple fallback - assume PST (UTC-8) for winter, PDT (UTC-7) for summer
+            # This is a rough approximation
+            if date_obj:
+                # Rough DST calculation: DST typically runs March-November
+                month = date_obj.month
+                if 3 <= month <= 11:  # Rough DST period
+                    return timezone(timedelta(hours=-7))  # PDT
+                else:
+                    return timezone(timedelta(hours=-8))  # PST
+            else:
+                # Default to current time DST calculation
+                now = datetime.now()
+                month = now.month
+                if 3 <= month <= 11:
+                    return timezone(timedelta(hours=-7))  # PDT
+                else:
+                    return timezone(timedelta(hours=-8))  # PST
     
     def fetch_page(self, url):
         """Fetch the content of a web page"""
@@ -45,10 +78,14 @@ class BelvedereRSSGenerator:
             return None
     
     def parse_date_string(self, date_str):
-        """Parse date string with fallback methods"""
-        if HAS_DATEUTIL:
+        """Parse date string with fallback methods, using Pacific Time"""
+        if HAS_DATEUTIL and HAS_PYTZ:
             try:
+                # Parse the date and localize to Pacific Time
                 parsed_date = date_parser.parse(date_str)
+                if parsed_date.tzinfo is None:
+                    # If no timezone info, assume Pacific Time
+                    parsed_date = self.pacific_tz.localize(parsed_date.replace(hour=12, minute=0, second=0))
                 return parsed_date.strftime('%a, %d %b %Y %H:%M:%S %z')
             except:
                 pass
@@ -72,13 +109,18 @@ class BelvedereRSSGenerator:
             
             if month_name in month_map:
                 try:
-                    dt = datetime(year, month_map[month_name], day, 12, 0, 0, tzinfo=timezone.utc)
-                    return dt.strftime('%a, %d %b %Y %H:%M:%S %z')
+                    # Create datetime object and apply Pacific timezone
+                    dt = datetime(year, month_map[month_name], day, 12, 0, 0)
+                    pacific_tz = self.get_pacific_timezone(dt)
+                    dt_pacific = dt.replace(tzinfo=pacific_tz)
+                    return dt_pacific.strftime('%a, %d %b %Y %H:%M:%S %z')
                 except:
                     pass
         
-        # Default fallback
-        return datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S %z')
+        # Default fallback - use current time in Pacific timezone
+        pacific_tz = self.get_pacific_timezone()
+        default_time = datetime.now(pacific_tz)
+        return default_time.strftime('%a, %d %b %Y %H:%M:%S %z')
 
     def extract_date_from_text(self, text):
         """Extract publication date from article text"""
@@ -97,16 +139,22 @@ class BelvedereRSSGenerator:
                 date_str = match.group(1)
                 return self.parse_date_string(date_str)
         
-        # Default to current time if no date found
-        return datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S %z')
+        # Default to current time in Pacific timezone if no date found
+        pacific_tz = self.get_pacific_timezone()
+        default_time = datetime.now(pacific_tz)
+        return default_time.strftime('%a, %d %b %Y %H:%M:%S %z')
 
     def extract_article_info(self, article_element):
         """Extract title, link, and description from an article element"""
+        # Get current Pacific time for default
+        pacific_tz = self.get_pacific_timezone()
+        default_time = datetime.now(pacific_tz)
+        
         info = {
             'title': '',
             'link': '',
             'description': '',
-            'pub_date': datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S %z')
+            'pub_date': default_time.strftime('%a, %d %b %Y %H:%M:%S %z')
         }
         
         # Try to find title - look for various heading tags and link text
@@ -221,12 +269,16 @@ class BelvedereRSSGenerator:
         # Create channel
         channel = ET.SubElement(rss, 'channel')
         
+        # Get current time in Pacific timezone for lastBuildDate
+        pacific_tz = self.get_pacific_timezone()
+        current_time_pacific = datetime.now(pacific_tz)
+        
         # Add channel metadata
         ET.SubElement(channel, 'title').text = 'City of Belvedere News'
         ET.SubElement(channel, 'link').text = self.news_url
         ET.SubElement(channel, 'description').text = 'Official news and updates from the City of Belvedere, California'
         ET.SubElement(channel, 'language').text = 'en-us'
-        ET.SubElement(channel, 'lastBuildDate').text = datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S %z')
+        ET.SubElement(channel, 'lastBuildDate').text = current_time_pacific.strftime('%a, %d %b %Y %H:%M:%S %z')
         ET.SubElement(channel, 'managingEditor').text = 'clerk@cityofbelvedere.org (City of Belvedere)'
         ET.SubElement(channel, 'webMaster').text = 'clerk@cityofbelvedere.org (City of Belvedere)'
         

@@ -5,24 +5,10 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Jul 2025 18:13:04 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jul 2025 00:46:21 -0700</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
-    <item>
-      <title>City Hall Closed Friday, July 4th: No Construction Allowed</title>
-      <link>https://www.cityofbelvedere.org/city-hall-closed-friday-july-4th-no-construction-allowed/</link>
-      <description>City Hall will be closed on Friday, July 4th for Independence Day. Construction is not allowed. Happy Fourth of July!</description>
-      <pubDate>Wed, 02 Jul 2025 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/city-hall-closed-friday-july-4th-no-construction-allowed/</guid>
-    </item>
-    <item>
-      <title>Emergency Siren Scheduled for Saturday, July 5 at Noon</title>
-      <link>https://www.cityofbelvedere.org/emergency-siren-resumes-on-saturday-july-5-at-noon/</link>
-      <description>An upgraded siren system is now fully installed. Beginning July 5, monthly tests will be at noon on the first Saturday of the month—aligned with other Southern Marin jurisdictions. Each test lasts 15 seconds, long enough to confirm functionality and remind everyone about emergency preparedness. What to Do in an Actual Emergency If you hear the siren...</description>
-      <pubDate>Wed, 02 Jul 2025 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/emergency-siren-resumes-on-saturday-july-5-at-noon/</guid>
-    </item>
     <item>
       <title>City Council Goals &amp; Updates</title>
       <link>https://www.cityofbelvedere.org/city-council-goals-updates-3/</link>
@@ -148,6 +134,20 @@
       <description>There’s exciting news from the Tiburon Peninsula Traffic Alliance (TPTA) about the Yellow Bus Program for the 2025/26 school year. This program makes life easier for parents and helps reduce traffic congestion along Tiburon Boulevard for everyone. Afterschool Bus: A new late afternoon express bus for students participating in extracurricular activities at Bel Aire and Reed...</description>
       <pubDate>Fri, 16 May 2025 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/passes-for-yellow-bus-program-on-sale-this-month/</guid>
+    </item>
+    <item>
+      <title>Concerts in the Park Kicks off on Father’s Day: June 15</title>
+      <link>https://www.cityofbelvedere.org/concerts-in-the-park-kicks-off-on-fathers-day-june-15/</link>
+      <description>Bring the family to Belvedere Community Park on Sunday, June 15 at 4pm to dance and sing along with The Sun Kings, the Bay Area's favorite Beatles tribute band. This energetic group kicks off our 28th year of free summer concerts for the Belvedere community. Come join the fun! The concert series is sponsored by...</description>
+      <pubDate>Fri, 16 May 2025 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/concerts-in-the-park-kicks-off-on-fathers-day-june-15/</guid>
+    </item>
+    <item>
+      <title>Volunteer Opportunities!</title>
+      <link>https://www.cityofbelvedere.org/volunteer-opportunities/</link>
+      <description>The Belvedere City Council is now accepting letters of interest for vacancies on the following committees: The Historic Preservation Committee: 3 seats with four-year terms The Belvedere Tiburon Library Agency: 1 seat with a four-year term The Marin County Commission on Aging: 1 seat with a three-year term City Council will be interviewing candidates at...</description>
+      <pubDate>Mon, 12 May 2025 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/volunteer-opportunities/</guid>
     </item>
   </channel>
 </rss>

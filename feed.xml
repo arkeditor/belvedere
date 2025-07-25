@@ -5,10 +5,17 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Jul 2025 12:18:11 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 25 Jul 2025 18:13:53 -0700</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Slurry Seal Road Project: August 7-8 and August 11-12</title>
+      <link>https://www.cityofbelvedere.org/slurry-seal-road-project-august-7-8-and-august-11-12/</link>
+      <description>As part of the city’s road maintenance program, a slurry seal project will take place Thursday, August 7 through Friday, August 8, and Monday August 11 through Tuesday, August 12. Slurry seal is a coating that is applied to the paving surface to protect and extend the lifetime of roads for up to 7 years. Residents on...</description>
+      <pubDate>Fri, 25 Jul 2025 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/slurry-seal-road-project-august-7-8-and-august-11-12/</guid>
+    </item>
     <item>
       <title>Be Ready Belvedere</title>
       <link>https://www.cityofbelvedere.org/be-ready-belvedere/</link>
@@ -141,13 +148,6 @@
       <description>The City Council reviewed the Preliminary 2025-26 Fiscal Year Budget. Key initiatives include significant sea wall repairs along Beach Road; integration of a new user fee schedule to enhance cost recovery; and launching a comprehensive infrastructure assessment. This budget continues the long-standing tradition of fiscal responsibility, maintaining city infrastructure, delivering high-quality services, and sustaining robust reserves to safeguard operations...</description>
       <pubDate>Fri, 16 May 2025 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/city-council-goals-updates-2/</guid>
-    </item>
-    <item>
-      <title>Maintaining a Fire-Smart Yard</title>
-      <link>https://www.cityofbelvedere.org/maintaining-a-fire-smart-yard/</link>
-      <description>Did you know most homes lost to wildfire are first ignited by embers from small fires nearby that then spread to the structure? Regular maintenance - including clearing away flammable debris and creating defensible space around your house - helps break the continuous fuel supply. This limits the potential for a small fire to escalate...</description>
-      <pubDate>Fri, 16 May 2025 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/maintaining-a-fire-smart-yard/</guid>
     </item>
   </channel>
 </rss>

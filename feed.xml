@@ -5,7 +5,7 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Aug 2025 12:17:22 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 19 Aug 2025 18:13:03 -0700</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
@@ -22,13 +22,6 @@
       <description>With their traditional starting time of 6:30pm, city meetings can run very late into the evening. To make it easier for residents to participate in person or by Zoom, the City Council adopted a 5:30pm start time for both City Council and Planning Commission meetings. The new starting time begins in September for Council and...</description>
       <pubDate>Mon, 18 Aug 2025 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/new-530pm-starting-time-council-planning-meetings/</guid>
-    </item>
-    <item>
-      <title>Join Us for Council Chat: Thursday, September 4 at 5pm</title>
-      <link>https://www.cityofbelvedere.org/join-us-for-council-chat-thursday-september-4-at-5pm/</link>
-      <description>Resident Gary Syman will host City Manager Robert Zadnik and Councilmember Kevin Burke for a one-hour chat on Thursday September 4 at 5pm in his home. Community members will hear an update about the Council’s emergency preparedness priority, and, of course, participants are welcome to ask questions on any topic in this informal conversation about...</description>
-      <pubDate>Mon, 18 Aug 2025 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/join-us-for-council-chat-thursday-september-4-at-5pm/</guid>
     </item>
     <item>
       <title>Be Ready Belvedere: Make a Plan</title>
@@ -148,6 +141,13 @@
       <description>Simple, home-made deterrents can help keep coyotes fearful of humans, while also protecting you and your dog when out for a walk. An easy-to-carry &quot;scare stick&quot;, a plastic trash bag, an empty soda can with pennies, and even a loud yell can be very effective tools for hazing coyotes. For additional information or to file...</description>
       <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/coyote-hazing-strategies-simple-yet-effective-2/</guid>
+    </item>
+    <item>
+      <title>Juneteenth Celebration in Tiburon: Sunday June 22</title>
+      <link>https://www.cityofbelvedere.org/juneteenth-celebration-in-tiburon-sunday-june-22/</link>
+      <description>Make your way to Main St. on Sunday, June 22 from 3 to 7pm for our local celebration of Juneteenth – a holiday of remembrance and empowerment. This free community event features live jazz and hip hop, poetry readings, guest speakers, great food and so much more. This Diversity Inclusion Task Force event is made...</description>
+      <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/juneteenth-celebration-in-tiburon-sunday-june-22/</guid>
     </item>
   </channel>
 </rss>

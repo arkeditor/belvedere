@@ -5,10 +5,17 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Sep 2025 12:17:17 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 16 Sep 2025 18:13:08 -0700</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Marin ADU Fair + Open House: Saturday, October 4</title>
+      <link>https://www.cityofbelvedere.org/marin-adu-fair-open-house-saturday-october-4/</link>
+      <description>Ready to explore what's possible with an ADU? Join us for Marin County's ADU Fair on Saturday, October 4 from 9-12:15pm. Meet local experts - Planners, Architects, Lenders and Builders- and learn how an ADU can add flexibility, income or housing to your property. Belvedere's own Planning and Building Director Rebecca Markwick will be on...</description>
+      <pubDate>Tue, 16 Sep 2025 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/marin-adu-fair-open-house-saturday-october-4/</guid>
+    </item>
     <item>
       <title>News from the Parks, Open Spaces &amp; Lanes Committee</title>
       <link>https://www.cityofbelvedere.org/news-from-the-parks-open-spaces-lanes-committee/</link>
@@ -141,13 +148,6 @@
       <description>At the June 9 City Council meeting, council members learned that the Mallard Pointe developers had signed a cost recovery agreement with the City of Belvedere -- allowing the planning staff to begin reviewing the various permit applications the developer has submitted. The first step in this review process involves identifying any incomplete or missing...</description>
       <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/city-council-goals-updates-3/</guid>
-    </item>
-    <item>
-      <title>Police Department Staffing</title>
-      <link>https://www.cityofbelvedere.org/police-department-staffing/</link>
-      <description>Over the past two years, the Belvedere Police Department has faced several staffing setbacks, which have challenged its existing staffing and coverage model. Although Belvedere has six active officers in the budget -- Chief Jason Wu plus five duty officers -- due to a long-term disability leave, there are only four duty officers currently available....</description>
-      <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/police-department-staffing/</guid>
     </item>
   </channel>
 </rss>

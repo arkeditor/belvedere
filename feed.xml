@@ -5,17 +5,10 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Oct 2025 18:13:38 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 07 Oct 2025 00:41:44 -0700</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
-    <item>
-      <title>Marin ADU Fair + Open House: Saturday, October 4</title>
-      <link>https://www.cityofbelvedere.org/marin-adu-fair-open-house-saturday-october-4/</link>
-      <description>Ready to explore what's possible with an ADU? Join us for Marin County's ADU Fair on Saturday, October 4 from 9-12:15pm. Meet local experts - Planners, Architects, Lenders and Builders- and learn how an ADU can add flexibility, income or housing to your property. Belvedere's own Planning and Building Director Rebecca Markwick will be on...</description>
-      <pubDate>Tue, 16 Sep 2025 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/marin-adu-fair-open-house-saturday-october-4/</guid>
-    </item>
     <item>
       <title>Free Go Bags for Belvedere Residents: Friday, October 10</title>
       <link>https://www.cityofbelvedere.org/free-go-bags-for-belvedere-residents-friday-october-10/</link>
@@ -36,13 +29,6 @@
       <description>The next time you stroll through Community Park or hike up one of our lanes, give a nod of thanks to Belvedere’s Parks, Open Spaces and Lanes Committee (POSLC). This volunteer committee collaborates closely with our Department of Public Works (DPW) to oversee and enhance city-owned property, including 23 lanes, 4 parks, the children’s playground...</description>
       <pubDate>Mon, 15 Sep 2025 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/news-from-the-parks-open-spaces-lanes-committee/</guid>
-    </item>
-    <item>
-      <title>Coastal Cleanup &amp; Treasure Hunt: Saturday, Sept. 20</title>
-      <link>https://www.cityofbelvedere.org/coastal-cleanup-treasure-hunt-saturday-sept-20/</link>
-      <description>Join fellow nature lovers and treasure hunters at the San Rafael Avenue seawall near West Shore Road on Saturday, September 20 from 9am to noon for California Coastal Cleanup Day. Wear sturdy shoes and bring work gloves. This year, special “trash” items will be hidden at cleanup sites across the state, making it the world's...</description>
-      <pubDate>Mon, 15 Sep 2025 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/coastal-cleanup-treasure-hunt-saturday-sept-20/</guid>
     </item>
     <item>
       <title>Police Department Upgrades to Flock Safety System</title>
@@ -148,6 +134,20 @@
       <description>Under the leadership of Chair Charlie Harrington, the Parks, Open Spaces and Lanes Committee (POSLC) is following its mission. At their June 12 meeting, the Committee was updated on the progress of creating a database that identifies all lanes and assesses their condition, value for evacuation and safety, and other benefits for the community. They...</description>
       <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/new-from-parks-open-spaces-and-lanes-committee/</guid>
+    </item>
+    <item>
+      <title>Housing Element Update</title>
+      <link>https://www.cityofbelvedere.org/housing-element-update/</link>
+      <description>The City’s Housing Element has been updated in response to the California Department of Housing &amp; Community Development's (HCD) January 14 comment letter. A redlined version of the document, with edits in yellow, is on the city’s website. HCD has indicated their informal approval of the proposed revisions, signaling that the changes address all remaining...</description>
+      <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/housing-element-update/</guid>
+    </item>
+    <item>
+      <title>E-Bike Law Adopted: Riders Must be 16+ and Wear Helmet</title>
+      <link>https://www.cityofbelvedere.org/e-bike-law-adopted-riders-must-be-16-and-wear-helmet/</link>
+      <description>On Monday, City Council adopted an ordinance restricting the age of Class 2 e-bike riders to 16 and older and requiring all Class 2 or Class 3 e-bike riders to wear a helmet. Class 2 e-bikes are operated with a throttle and do not have pedal assist. Class 1 e-bikes, which are pedal-assisted and do...</description>
+      <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/e-bike-law-adopted-riders-must-be-16-and-wear-helmet/</guid>
     </item>
   </channel>
 </rss>

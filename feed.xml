@@ -5,17 +5,10 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Oct 2025 12:18:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 20 Oct 2025 18:14:15 -0700</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
-    <item>
-      <title>Get Ready 94920 Preparedness Event: Tomorrow!</title>
-      <link>https://www.cityofbelvedere.org/get-ready-94920-preparedness-event-tomorrow/</link>
-      <description>Join us at Belvedere Community Park tomorrow, Saturday, October 18, from 11am to 1pm for the annual Get Ready Go 94920 emergency preparedness event. Enjoy a free BBQ catered by Forrest Fire Barbeque while connecting with first responders from the Belvedere and Tiburon Police Departments, Tiburon Fire Protection District, and Southern Marin Fire Department. Partnering agencies—including the...</description>
-      <pubDate>Fri, 17 Oct 2025 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/get-ready-94920-preparedness-event-tomorrow/</guid>
-    </item>
     <item>
       <title>Who Will Be Our Citizen of the Year &amp; Citizen Emeritus?</title>
       <link>https://www.cityofbelvedere.org/who-will-be-our-citizen-of-the-year-citizen-emeritus/</link>
@@ -148,6 +141,13 @@
       <description>Under the leadership of Chair Charlie Harrington, the Parks, Open Spaces and Lanes Committee (POSLC) is following its mission. At their June 12 meeting, the Committee was updated on the progress of creating a database that identifies all lanes and assesses their condition, value for evacuation and safety, and other benefits for the community. They...</description>
       <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/new-from-parks-open-spaces-and-lanes-committee/</guid>
+    </item>
+    <item>
+      <title>Housing Element Update</title>
+      <link>https://www.cityofbelvedere.org/housing-element-update/</link>
+      <description>The City’s Housing Element has been updated in response to the California Department of Housing &amp; Community Development's (HCD) January 14 comment letter. A redlined version of the document, with edits in yellow, is on the city’s website. HCD has indicated their informal approval of the proposed revisions, signaling that the changes address all remaining...</description>
+      <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/housing-element-update/</guid>
     </item>
   </channel>
 </rss>

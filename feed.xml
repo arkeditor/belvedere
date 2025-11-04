@@ -5,10 +5,17 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Nov 2025 12:19:20 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 18:13:52 -0800</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>San Rafael Avenue Shoreline Maintenance Project Begins Monday, November 10</title>
+      <link>https://www.cityofbelvedere.org/san-rafael-avenue-seawall-repair-project-begins-monday-november-10/</link>
+      <description>Starting on Monday, November 10, the Town of Tiburon will perform repairs to the rock lined wall near Bramble Beach, adjacent to 6 San Rafael Avenue. During the work, an intermittent lane closure with flaggers will be in effect. The pathway in the area will also be closed to pedestrians and a detour around the...</description>
+      <pubDate>Tue, 04 Nov 2025 12:00:00 -0800</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/san-rafael-avenue-seawall-repair-project-begins-monday-november-10/</guid>
+    </item>
     <item>
       <title>Who Will Be Our Citizen of the Year &amp; Citizen Emeritus?</title>
       <link>https://www.cityofbelvedere.org/who-will-be-our-citizen-of-the-year-citizen-emeritus/</link>
@@ -141,13 +148,6 @@
       <description>Under the leadership of Chair Charlie Harrington, the Parks, Open Spaces and Lanes Committee (POSLC) is following its mission. At their June 12 meeting, the Committee was updated on the progress of creating a database that identifies all lanes and assesses their condition, value for evacuation and safety, and other benefits for the community. They...</description>
       <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/new-from-parks-open-spaces-and-lanes-committee/</guid>
-    </item>
-    <item>
-      <title>Housing Element Update</title>
-      <link>https://www.cityofbelvedere.org/housing-element-update/</link>
-      <description>The City’s Housing Element has been updated in response to the California Department of Housing &amp; Community Development's (HCD) January 14 comment letter. A redlined version of the document, with edits in yellow, is on the city’s website. HCD has indicated their informal approval of the proposed revisions, signaling that the changes address all remaining...</description>
-      <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/housing-element-update/</guid>
     </item>
   </channel>
 </rss>

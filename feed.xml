@@ -5,10 +5,17 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Nov 2025 18:13:52 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 05 Nov 2025 00:46:12 -0800</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>City Hall will be Closed on Veterans Day</title>
+      <link>https://www.cityofbelvedere.org/city-hall-will-be-closed-on-veterans-day/</link>
+      <description>City Hall will be closed on Tuesday, November 11th in observence of Vertans Day. Construction work is not allowed.</description>
+      <pubDate>Tue, 04 Nov 2025 12:00:00 -0800</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/city-hall-will-be-closed-on-veterans-day/</guid>
+    </item>
     <item>
       <title>San Rafael Avenue Shoreline Maintenance Project Begins Monday, November 10</title>
       <link>https://www.cityofbelvedere.org/san-rafael-avenue-seawall-repair-project-begins-monday-november-10/</link>
@@ -141,13 +148,6 @@
       <description>Over the past two years, the Belvedere Police Department has faced several staffing setbacks, which have challenged its existing staffing and coverage model. Although Belvedere has six active officers in the budget -- Chief Jason Wu plus five duty officers -- due to a long-term disability leave, there are only four duty officers currently available....</description>
       <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/police-department-staffing/</guid>
-    </item>
-    <item>
-      <title>New From Parks Open Spaces and Lanes Committee</title>
-      <link>https://www.cityofbelvedere.org/new-from-parks-open-spaces-and-lanes-committee/</link>
-      <description>Under the leadership of Chair Charlie Harrington, the Parks, Open Spaces and Lanes Committee (POSLC) is following its mission. At their June 12 meeting, the Committee was updated on the progress of creating a database that identifies all lanes and assesses their condition, value for evacuation and safety, and other benefits for the community. They...</description>
-      <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/new-from-parks-open-spaces-and-lanes-committee/</guid>
     </item>
   </channel>
 </rss>

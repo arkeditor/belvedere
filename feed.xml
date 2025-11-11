@@ -5,10 +5,17 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Nov 2025 18:13:58 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 00:45:34 -0800</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Upcoming Siren Maintenance &amp; Testing:  Thursday, November 13, 10am to 12pm</title>
+      <link>https://www.cityofbelvedere.org/upcoming-siren-maintenance-testing-thursday-november-13-10am-to-12pm/</link>
+      <description>The Town of Tiburon will be conducting maintenance on the emergency siren system on Thursday, November 13, between 10am and 12pm. During this time, you may hear the sirens sound intermittently. This is  a test and not a cause for concern. To stay informed during emergencies, we encourage all residents to sign up for AlertMarin notifications at www.alertmarin.org....</description>
+      <pubDate>Mon, 10 Nov 2025 12:00:00 -0800</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/upcoming-siren-maintenance-testing-thursday-november-13-10am-to-12pm/</guid>
+    </item>
     <item>
       <title>City Hall will be Closed on Veterans Day</title>
       <link>https://www.cityofbelvedere.org/city-hall-will-be-closed-on-veterans-day/</link>
@@ -141,13 +148,6 @@
       <description>At the June 9 City Council meeting, council members learned that the Mallard Pointe developers had signed a cost recovery agreement with the City of Belvedere -- allowing the planning staff to begin reviewing the various permit applications the developer has submitted. The first step in this review process involves identifying any incomplete or missing...</description>
       <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/city-council-goals-updates-3/</guid>
-    </item>
-    <item>
-      <title>Police Department Staffing</title>
-      <link>https://www.cityofbelvedere.org/police-department-staffing/</link>
-      <description>Over the past two years, the Belvedere Police Department has faced several staffing setbacks, which have challenged its existing staffing and coverage model. Although Belvedere has six active officers in the budget -- Chief Jason Wu plus five duty officers -- due to a long-term disability leave, there are only four duty officers currently available....</description>
-      <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/police-department-staffing/</guid>
     </item>
   </channel>
 </rss>

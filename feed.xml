@@ -5,7 +5,7 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Nov 2025 12:18:56 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 13 Nov 2025 18:13:26 -0800</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
@@ -15,13 +15,6 @@
       <description>The Town of Tiburon will be conducting maintenance on the emergency siren system on Thursday, November 13, between 10am and 12pm. During this time, you may hear the sirens sound intermittently. This is  a test and not a cause for concern. To stay informed during emergencies, we encourage all residents to sign up for AlertMarin notifications at www.alertmarin.org....</description>
       <pubDate>Mon, 10 Nov 2025 12:00:00 -0800</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/upcoming-siren-maintenance-testing-thursday-november-13-10am-to-12pm/</guid>
-    </item>
-    <item>
-      <title>City Hall will be Closed on Veterans Day</title>
-      <link>https://www.cityofbelvedere.org/city-hall-will-be-closed-on-veterans-day/</link>
-      <description>City Hall will be closed on Tuesday, November 11th in observence of Vertans Day. Construction work is not allowed.</description>
-      <pubDate>Tue, 04 Nov 2025 12:00:00 -0800</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/city-hall-will-be-closed-on-veterans-day/</guid>
     </item>
     <item>
       <title>San Rafael Avenue Shoreline Maintenance Project Begins Monday, November 10</title>
@@ -36,13 +29,6 @@
       <description>Do you know a resident who has made a significant contribution to the community -- someone who has volunteered their time and skills to help make Belvedere the wonderful place that it is? We want to honor that person! The nomination process is now open for the Citizen of the Year and the Citizen Emeritus...</description>
       <pubDate>Fri, 17 Oct 2025 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/who-will-be-our-citizen-of-the-year-citizen-emeritus/</guid>
-    </item>
-    <item>
-      <title>Artisan Market at the Library: November 8 &amp; 9</title>
-      <link>https://www.cityofbelvedere.org/artisan-market-at-the-library-november-8-9/</link>
-      <description>On Saturday, November 8 &amp; Sunday, November 9 from 10-4pm, discover unique, handcrafted holiday gifts and one-of-a-kind treasures from talented local artists and makers. This free, two-day event is the perfect opportunity to shop local and support our community's artistic talent. Visit the Belvedere Tiburon Library Website for more information.</description>
-      <pubDate>Fri, 17 Oct 2025 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/artisan-market-at-the-library-november-8-9/</guid>
     </item>
     <item>
       <title>Be Ready Belvedere: Go Bags a Success</title>
@@ -148,6 +134,20 @@
       <description>At the June 9 City Council meeting, council members learned that the Mallard Pointe developers had signed a cost recovery agreement with the City of Belvedere -- allowing the planning staff to begin reviewing the various permit applications the developer has submitted. The first step in this review process involves identifying any incomplete or missing...</description>
       <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/city-council-goals-updates-3/</guid>
+    </item>
+    <item>
+      <title>Police Department Staffing</title>
+      <link>https://www.cityofbelvedere.org/police-department-staffing/</link>
+      <description>Over the past two years, the Belvedere Police Department has faced several staffing setbacks, which have challenged its existing staffing and coverage model. Although Belvedere has six active officers in the budget -- Chief Jason Wu plus five duty officers -- due to a long-term disability leave, there are only four duty officers currently available....</description>
+      <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/police-department-staffing/</guid>
+    </item>
+    <item>
+      <title>New From Parks Open Spaces and Lanes Committee</title>
+      <link>https://www.cityofbelvedere.org/new-from-parks-open-spaces-and-lanes-committee/</link>
+      <description>Under the leadership of Chair Charlie Harrington, the Parks, Open Spaces and Lanes Committee (POSLC) is following its mission. At their June 12 meeting, the Committee was updated on the progress of creating a database that identifies all lanes and assesses their condition, value for evacuation and safety, and other benefits for the community. They...</description>
+      <pubDate>Mon, 16 Jun 2025 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/new-from-parks-open-spaces-and-lanes-committee/</guid>
     </item>
   </channel>
 </rss>

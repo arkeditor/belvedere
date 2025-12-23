@@ -5,10 +5,24 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Dec 2025 00:48:36 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 06:16:46 -0800</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Marin County Severe Weather Event: December 22 – 26</title>
+      <link>https://www.cityofbelvedere.org/marin-county-severe-weather-event-december-22-26/</link>
+      <description>What is happening? The National Weather Service forecasts multiple storm systems impacting Marin County through Friday, bringing periods of rain and wind. Total rainfall from Monday through Friday is expected to range from 4 to 10 inches countywide. The strongest impacts are anticipated on Tuesday, December 23, with wind gusts reaching the 40 mph range....</description>
+      <pubDate>Mon, 22 Dec 2025 12:00:00 -0800</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/marin-county-severe-weather-event-december-22-26/</guid>
+    </item>
+    <item>
+      <title>City Hall Holiday Hours &amp; Construction Reminders</title>
+      <link>https://www.cityofbelvedere.org/city-hall-holiday-hours-construction-reminders/</link>
+      <description>City Hall will be closed December 22–26, and on New Year’s Day (Thursday, January 1, 2026). Please note that construction work is not allowed on December 24, December 25, or January 1. No building inspections will be conducted December 22-26, or January 1. Wishing everyone a warm, safe, and happy holiday season, and a wonderful...</description>
+      <pubDate>Mon, 22 Dec 2025 12:00:00 -0800</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/city-hall-holiday-hours-construction-reminders/</guid>
+    </item>
     <item>
       <title>City Council Leadership Update</title>
       <link>https://www.cityofbelvedere.org/city-council-leadership-update/</link>
@@ -43,13 +57,6 @@
       <description>City Council is now accepting applications to fill one open seat on the Marin / Sonoma Mosquito and Vector Control District Board of Trustees. This board plays an important role in regional public health efforts. If you’re interested in being considered, please apply by January 5 with a brief letter of interest and qualifications. Applications...</description>
       <pubDate>Fri, 12 Dec 2025 12:00:00 -0800</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/serve-on-the-mosquito-vector-control-board/</guid>
-    </item>
-    <item>
-      <title>City Hall Holiday Hours &amp; Construction Reminders</title>
-      <link>https://www.cityofbelvedere.org/city-hall-holiday-hours-construction-reminders/</link>
-      <description>City Hall will be closed December 22–26, and on New Year’s Day (Thursday, January 1, 2026). Please note that construction work is not allowed on December 24, December 25, or January 1. No building inspections will be conducted December 22-26, or January 1. Wishing everyone a warm, safe, and happy holiday season, and a wonderful...</description>
-      <pubDate>Fri, 12 Dec 2025 12:00:00 -0800</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/city-hall-holiday-hours-construction-reminders/</guid>
     </item>
     <item>
       <title>City Council Goals &amp; Updates</title>
@@ -141,13 +148,6 @@
       <description>This summer, Belvedere upgraded its automated license plate reader cameras to the Flock Safety System. Flock is widely adopted by Marin County law enforcement agencies and is becoming the industry standard throughout California. This new platform improves accuracy, has greater search capabilities, and integratesdirectly with surrounding agencies. This means our police can receive real-time alerts...</description>
       <pubDate>Mon, 15 Sep 2025 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/police-department-upgrades-to-flock-safety-system/</guid>
-    </item>
-    <item>
-      <title>City Council Goals &amp; Updates</title>
-      <link>https://www.cityofbelvedere.org/city-council-goals-updates-4/</link>
-      <description>Police Department Update To address the recent staffing challenge, City Manager Zadnik reported that he is contracting with the Marin County Sheriff’s Office to provide interim night shift coverage for up to six months. Belvedere’s Police Department is also actively recruiting for Reserve Police Officer positions. Reserve officers would be available to replace officers out...</description>
-      <pubDate>Mon, 18 Aug 2025 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/city-council-goals-updates-4/</guid>
     </item>
   </channel>
 </rss>

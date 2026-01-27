@@ -5,10 +5,17 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jan 2026 12:22:08 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jan 2026 18:21:06 -0800</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>January 26th – 29th: Pile Burns Planned at Angel Island State Park</title>
+      <link>https://www.cityofbelvedere.org/january-26th-29th-pile-burns-planned-at-angel-island-state-park/</link>
+      <description>California State Parks is planning to conduct pile burn operations at Angel Island State Park, conditions permitting. These burns are being conducted to help manage invasive species, reduce fuel loading and to promote the resilience of the parks grasslands and oak woodlands in the event of future fires as part of State Park's Wildfire and...</description>
+      <pubDate>Tue, 27 Jan 2026 12:00:00 -0800</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/january-26th-29th-pile-burns-planned-at-angel-island-state-park/</guid>
+    </item>
     <item>
       <title>City Manager Report</title>
       <link>https://www.cityofbelvedere.org/city-manager-report/</link>
@@ -141,13 +148,6 @@
       <description>Since September, City Council has been meeting at 5:30pm. And as of October 21, the Planning Commission also will start their meetings at this new, earlier time. Council meetings are held on the second Monday of each month and Planning Commission meetings on the third Tuesday of each month.</description>
       <pubDate>Fri, 17 Oct 2025 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/reminder-council-planning-meetings-begin-at-530-pm/</guid>
-    </item>
-    <item>
-      <title>BELNET: Daily Well-being Checks</title>
-      <link>https://www.cityofbelvedere.org/belnet-daily-well-being-checks/</link>
-      <description>BELNET is a telephone welfare check program offered by the Belvedere Police Department for Belvedere's senior citizens. Residents who are registered will receive a daily call from the Police Department to find out how they are doing and if they need any assistance. This allows residents, and their families, to have peace of mind knowing...</description>
-      <pubDate>Fri, 17 Oct 2025 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/belnet-daily-well-being-checks/</guid>
     </item>
   </channel>
 </rss>

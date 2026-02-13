@@ -5,10 +5,17 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Feb 2026 12:30:06 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 18:29:27 -0800</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>City Hall will be Closed Monday, February 16</title>
+      <link>https://www.cityofbelvedere.org/city-hall-will-be-closed-monday-february-16/</link>
+      <description>In observance of Presidents' Day, City Hall will be closed Monday, February 16. Construction work is not allowed. Normal business hours will resume Tuesday, February 17.</description>
+      <pubDate>Fri, 13 Feb 2026 12:00:00 -0800</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/city-hall-will-be-closed-monday-february-16/</guid>
+    </item>
     <item>
       <title>January 26th – 29th: Pile Burns Planned at Angel Island State Park</title>
       <link>https://www.cityofbelvedere.org/january-26th-29th-pile-burns-planned-at-angel-island-state-park/</link>
@@ -141,13 +148,6 @@
       <description>You may have noticed a new street sweeper in Belvedere in the past few weeks. The Public Works crew has been training on the recently purchased Ravo 5-iSeries, which is smaller, quieter, less dusty and has lower emissions. It can be seen in action on Thursdays and Fridays as the crew makes the rounds in...</description>
       <pubDate>Fri, 17 Oct 2025 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/new-city-sweeper-on-the-streets/</guid>
-    </item>
-    <item>
-      <title>Reminder: Council &amp; Planning Meetings Begin at 5:30 PM</title>
-      <link>https://www.cityofbelvedere.org/reminder-council-planning-meetings-begin-at-530-pm/</link>
-      <description>Since September, City Council has been meeting at 5:30pm. And as of October 21, the Planning Commission also will start their meetings at this new, earlier time. Council meetings are held on the second Monday of each month and Planning Commission meetings on the third Tuesday of each month.</description>
-      <pubDate>Fri, 17 Oct 2025 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/reminder-council-planning-meetings-begin-at-530-pm/</guid>
     </item>
   </channel>
 </rss>

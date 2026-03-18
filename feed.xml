@@ -5,10 +5,17 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Mar 2026 12:40:03 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 18:41:01 -0700</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Volunteer for the Planning Commission</title>
+      <link>https://www.cityofbelvedere.org/vollunteer-for-the-planning-commission/</link>
+      <description>The Belvedere City Council is now accepting letters of interest for an unexpected vacancy on the Planning Commission. This vacant seat has a term that ends on June 30, 2028. The Planning Commission reviews development applications for design review and zoning conformity in accordance with the Belvedere Municipal Code. Commissioners also serve outside of regular...</description>
+      <pubDate>Wed, 18 Mar 2026 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/vollunteer-for-the-planning-commission/</guid>
+    </item>
     <item>
       <title>City Council Retreat: Shaping Belvedere’s 2026 Priorities</title>
       <link>https://www.cityofbelvedere.org/city-council-retreat-shaping-belvederes-2026-priorities/</link>
@@ -141,13 +148,6 @@
       <description>Making sure your dog is licensed not only helps keep them safe - it's also required by law. Marin Humane is offering a new, easy-to-use licensing platform that provides effective pet identification and reunification services, helping keep pets out of shelters and return them home safely. Visit Marin Humane to purchase a new license or renew an existing one....</description>
       <pubDate>Tue, 20 Jan 2026 12:00:00 -0800</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/keep-your-dog-on-the-right-side-of-the-law/</guid>
-    </item>
-    <item>
-      <title>City Council Retreat: Monday, February 23 at Noon</title>
-      <link>https://www.cityofbelvedere.org/city-council-retreat-monday-february-23-at-noon/</link>
-      <description>The City Council Retreat will be held on Monday, February 23, at the Belvedere Community Center, from noon to approximately 4pm. This planning session will focus on setting the city’s priorities, goals, and strategies for 2026. Community members are welcome to attend in person or via Zoom. Your interest and participation are always appreciated. If...</description>
-      <pubDate>Tue, 20 Jan 2026 12:00:00 -0800</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/city-council-retreat-monday-february-23-at-noon/</guid>
     </item>
   </channel>
 </rss>

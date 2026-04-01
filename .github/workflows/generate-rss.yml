@@ -1,12 +1,14 @@
 name: Generate RSS Feed
-
 on:
   schedule:
     - cron: '0 */6 * * *'  # Every 6 hours
-  workflow_dispatch:  # Allow manual trigger
+  workflow_dispatch:
 
 permissions:
-  contents: write  # Allow the workflow to write to the repository
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true   # ← Node 20 deprecation fix
 
 jobs:
   generate-rss:
@@ -18,7 +20,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5        # ← bumped from v4
         with:
           python-version: '3.9'
           

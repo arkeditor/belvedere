@@ -5,10 +5,17 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 May 2026 14:27:51 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 19:58:47 -0700</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>City Hall Closed Monday, May 25th in observance of Memorial Day</title>
+      <link>https://www.cityofbelvedere.org/city-hall-closed-monday-may-25th-in-observance-of-memorial-day/</link>
+      <description>City Hall will be closed on Monday, May 25th in observance of Memorial Day. No contractor work allowed.</description>
+      <pubDate>Wed, 20 May 2026 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/city-hall-closed-monday-may-25th-in-observance-of-memorial-day/</guid>
+    </item>
     <item>
       <title>City Council Report</title>
       <link>https://www.cityofbelvedere.org/city-council-report-6/</link>
@@ -141,13 +148,6 @@
       <description>For a community that often leads the way, it’s surprising that Belvedere ranks near the bottom—10th out of 12 Marin communities—when it comes to AlertMarin registrations. AlertMarin is Marin County's official emergency notification system. Belvedere Police Chief Jason Wu says it's our primary tool for reaching residents when it matters most. Whether it's a wildfire, flood...</description>
       <pubDate>Mon, 16 Mar 2026 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/help-make-belvedere-1-in-safety/</guid>
-    </item>
-    <item>
-      <title>Traffic Study: Addressing Traffic on Tiburon Boulevard</title>
-      <link>https://www.cityofbelvedere.org/traffic-study-addressing-traffic-on-tiburon-boulevard/</link>
-      <description>In 2025, the Tiburon Town Council initiated a study focused on Tiburon Boulevard in order to develop a comprehensive plan addressing traffic challenges and improving the Peninsula’s transportation network. On March 4, 2026, the Tiburon Town Council reviewed the first draft of a comprehensive Transportation &amp; Infrastructure Study Plan. The study focuses on Tiburon Boulevard (from Blackfield Drive...</description>
-      <pubDate>Mon, 16 Mar 2026 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/traffic-study-addressing-traffic-on-tiburon-boulevard/</guid>
     </item>
   </channel>
 </rss>

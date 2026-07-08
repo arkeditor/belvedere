@@ -5,10 +5,17 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2026 13:23:03 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 19:01:18 -0700</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mallard Pointe Project Community Meeting: July 9, 10am</title>
+      <link>https://www.cityofbelvedere.org/mallard-pointe-project-community-meeting-july-9-10am/</link>
+      <description>The application for the Mallard Pointe project has now met over 95% of the required conditions of approval for the demolition permit and is expected to reach 100% completion by tomorrow, July 8. If all conditions are met, the City will be required to issue the demolition permit as early as Thursday, July 9. To...</description>
+      <pubDate>Wed, 08 Jul 2026 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/mallard-pointe-project-community-meeting-july-9-10am/</guid>
+    </item>
     <item>
       <title>City Council Report: Mallard Pointe, Budget and Staffing</title>
       <link>https://www.cityofbelvedere.org/city-council-report-mallard-pointe-budget-and-staffing/</link>
@@ -141,13 +148,6 @@
       <description>Attention aspiring filmmakers! If you’re thinking of entering a film in the Third Annual Belvedere Home Made Film Festival, don’t miss the Kick-off Party on Friday, June 12, at 5pm at the Belvedere-Tiburon Library. Learn how to participate in the film festival and sign-up for free filmmaking workshops. The workshops - offered from June to...</description>
       <pubDate>Mon, 18 May 2026 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/belvedere-film-fest-kickoff-party-june-12/</guid>
-    </item>
-    <item>
-      <title>City Council Report</title>
-      <link>https://www.cityofbelvedere.org/city-council-report-5/</link>
-      <description>At its April 13 meeting, the City Council approved a contract with Phillip Seabrook Associates to provide construction oversight for the Mallard Pointe project. Their work will include organizing project submittals, tracking approval conditions, ensuring compliance, and serving as a liaison between the City, residents, the applicant, contractors, and engineers. The firm brings expertise in inspections, engineering...</description>
-      <pubDate>Mon, 20 Apr 2026 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/city-council-report-5/</guid>
     </item>
   </channel>
 </rss>

@@ -5,10 +5,17 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Jul 2026 12:59:55 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 18:57:13 -0700</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>City Council Election: November 3, 2026</title>
+      <link>https://www.cityofbelvedere.org/city-council-election-november-3-2026/</link>
+      <description>On November 3, 2026, the city will hold a general municipal election to fill two seats on the City Council. To become a candidate, you must be over 18 years of age and a registered voter in Belvedere. The nomination period begins July 13, 2026, and ends on August 7, 2026. If one of the...</description>
+      <pubDate>Mon, 13 Jul 2026 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/city-council-election-november-3-2026/</guid>
+    </item>
     <item>
       <title>Mallard Pointe Project Community Meeting: July 9, 10am</title>
       <link>https://www.cityofbelvedere.org/mallard-pointe-project-community-meeting-july-9-10am/</link>
@@ -50,13 +57,6 @@
       <description>In response to resident concerns about increased rat activity, the city is beginning a six-month mitigation pilot program. As part of the pilot, the city will install secured bait stations using Evolve Rat Birth Control in targeted areas. This non-lethal fertility-control bait is designed to reduce rat reproduction over time, offering a humane and safer...</description>
       <pubDate>Mon, 15 Jun 2026 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/humane-rat-control-pilot-program/</guid>
-    </item>
-    <item>
-      <title>City Council Election: November 3, 2026</title>
-      <link>https://www.cityofbelvedere.org/city-council-election-november-3-2026/</link>
-      <description>On November 3, 2026, the city will hold a general municipal election to fill two seats on the City Council. To become a candidate, you must be over 18 years of age and a registered voter in Belvedere. The nomination period begins July 13, 2026, and ends on August 7, 2026. If one of the...</description>
-      <pubDate>Mon, 15 Jun 2026 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/city-council-election-november-3-2026/</guid>
     </item>
     <item>
       <title>Be Aware of Coyotes Protecting Their Young</title>

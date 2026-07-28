@@ -5,7 +5,7 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jul 2026 13:24:47 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 19:01:38 -0700</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
@@ -15,6 +15,13 @@
       <description>The Beach Road Stabilization Project (BRSP), which will repair and stabilize portions of the Beach Road sea wall between Peninsula Road and Main Street, is set to start on July 27 and run through October 30. Before the project construction starts, PG&amp;E will complete necessary modifications to utilities in the roadway from July 17 through...</description>
       <pubDate>Mon, 20 Jul 2026 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/update-on-the-beach-road-sea-wall-stabilization-project/</guid>
+    </item>
+    <item>
+      <title>City Council report:</title>
+      <link>https://www.cityofbelvedere.org/city-council-report-7/</link>
+      <description>At its July 13 meeting, the City Council received an update on ongoing discussions with the Tiburon Fire Protection District regarding a possible transition from the current contract-for-service model to annexation into the District. After thoughtful evaluation by both the City and the District, annexation is not considered a viable option because of structural tax issues and financial...</description>
+      <pubDate>Mon, 20 Jul 2026 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/city-council-report-7/</guid>
     </item>
     <item>
       <title>Mallard Pointe update: enhanced community outreach</title>
@@ -141,13 +148,6 @@
       <description>To help you rid your property of fire-prone vegetation and provide more defensible space around your home, Belvedere is offering its Annual Curbside Vegetation Pickup Program on Tuesday mornings from May 19 through June 30. Place cut vegetation in a neat pile at the road edge in front of your property before 8am on one...</description>
       <pubDate>Mon, 18 May 2026 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/free-curbside-vegetation-pick-up-begins-tuesday-may-19/</guid>
-    </item>
-    <item>
-      <title>Plan Ahead: Emergency Preparedness Course May 20</title>
-      <link>https://www.cityofbelvedere.org/plan-ahead-emergency-preparedness-course-may-20/</link>
-      <description>The Tiburon Peninsula faces many potential hazards including: earthquakes, wildfires, storms, flooding and landslides. On May 20 at 1pm, participate in a two-hour disaster preparedness course hosted by Laurie Nilsen, the Emergency Operations Center Coordinator for the Tiburon Peninsula. This important training opportunity will be held in the Belvedere Tiburon Library Founders Room. Learn practical...</description>
-      <pubDate>Mon, 18 May 2026 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/plan-ahead-emergency-preparedness-course-may-20/</guid>
     </item>
   </channel>
 </rss>

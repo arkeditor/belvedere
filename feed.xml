@@ -5,10 +5,17 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Sep 2026 16:00:17 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 20:50:56 -0700</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AlertMarin Countywide Test: September 26</title>
+      <link>https://www.cityofbelvedere.org/alertmarin-countywide-test-september-26/</link>
+      <description>On Saturday, September 26 at 10am, Marin County will conduct a countywide AlertMarin test to help ensure the system is ready to deliver critical information when emergencies occur. The test will be sent to everyone registered for AlertMarin. As we prepare for peak wildfire season and the potential impacts of El Niño, staying connected to...</description>
+      <pubDate>Thu, 24 Sep 2026 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://www.cityofbelvedere.org/alertmarin-countywide-test-september-26/</guid>
+    </item>
     <item>
       <title>City Council Report</title>
       <link>https://www.cityofbelvedere.org/city-council-report-8/</link>
@@ -141,13 +148,6 @@
       <description>Join your neighbors and Tiburon Peninsula's first responders for a fun, family-friendly, community-building event at Zelinsky Park on Tuesday, August 4 from 4-7pm. Meet members of the Belvedere Police Department, Tiburon Fire Protection District, and Tiburon Police Department while enjoying tacos, Kona Ice, music, first responder vehicle tours, games, a bounce house, face painting, and...</description>
       <pubDate>Mon, 20 Jul 2026 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://www.cityofbelvedere.org/national-night-out-tuesday-august-4-at-zelinsky-park/</guid>
-    </item>
-    <item>
-      <title>Concerts in the Park: Sunday, August 9</title>
-      <link>https://www.cityofbelvedere.org/concerts-in-the-park-sunday-august-9/</link>
-      <description>Bring the whole family to Belvedere Community Park on Sunday, August 9, at 4pm to enjoy the sounds of San Francisco's Native Elements, a 10-piece, horn-driven band performing reggae, roots, rock, and all your favorites. Pack a blanket, relax, and dance the afternoon away! The concert series is sponsored by individual and community donations—help continue this...</description>
-      <pubDate>Mon, 20 Jul 2026 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://www.cityofbelvedere.org/concerts-in-the-park-sunday-august-9/</guid>
     </item>
   </channel>
 </rss>

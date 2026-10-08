@@ -5,10 +5,17 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Oct 2026 12:20:22 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 22:33:02 -0700</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>November 3, 2026 General Election: Where &amp; When to Vote</title>
+      <link>https://cityofbelvedere.gov/november-3-2026-general-election-where-when-to-vote/</link>
+      <description>Your November 3, 2026 Statewide General Election ballot has either made it to your mailbox or is on its way. Once its ready, you can either put it in your mailbox or use the official drop box in front of the Belvedere Community Center (450 San Rafael Ave., lower level of City Hall). Need more...</description>
+      <pubDate>Thu, 08 Oct 2026 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://cityofbelvedere.gov/november-3-2026-general-election-where-when-to-vote/</guid>
+    </item>
     <item>
       <title>City Council Report</title>
       <link>https://cityofbelvedere.gov/city-council-report-8/</link>
@@ -141,13 +148,6 @@
       <description>Join your neighbors and Tiburon Peninsula's first responders for a fun, family-friendly, community-building event at Zelinsky Park on Tuesday, August 4 from 4-7pm. Meet members of the Belvedere Police Department, Tiburon Fire Protection District, and Tiburon Police Department while enjoying tacos, Kona Ice, music, first responder vehicle tours, games, a bounce house, face painting, and...</description>
       <pubDate>Mon, 20 Jul 2026 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://cityofbelvedere.gov/national-night-out-tuesday-august-4-at-zelinsky-park/</guid>
-    </item>
-    <item>
-      <title>Concerts in the Park: Sunday, August 9</title>
-      <link>https://cityofbelvedere.gov/concerts-in-the-park-sunday-august-9/</link>
-      <description>Bring the whole family to Belvedere Community Park on Sunday, August 9, at 4pm to enjoy the sounds of San Francisco's Native Elements, a 10-piece, horn-driven band performing reggae, roots, rock, and all your favorites. Pack a blanket, relax, and dance the afternoon away! The concert series is sponsored by individual and community donations—help continue this...</description>
-      <pubDate>Mon, 20 Jul 2026 12:00:00 -0700</pubDate>
-      <guid isPermaLink="true">https://cityofbelvedere.gov/concerts-in-the-park-sunday-august-9/</guid>
     </item>
   </channel>
 </rss>

@@ -5,17 +5,10 @@
     <link>https://www.cityofbelvedere.org/news</link>
     <description>Official news and updates from the City of Belvedere, California</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Nov 2026 13:51:33 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 22:36:29 -0800</lastBuildDate>
     <managingEditor>clerk@cityofbelvedere.org (City of Belvedere)</managingEditor>
     <webMaster>clerk@cityofbelvedere.org (City of Belvedere)</webMaster>
     <ns0:link href="https://www.cityofbelvedere.org/rss.xml" rel="self" type="application/rss+xml"/>
-    <item>
-      <title>November 3, 2026 General Election: Where &amp; When to Vote</title>
-      <link>https://cityofbelvedere.gov/november-3-2026-general-election-where-when-to-vote/</link>
-      <description>Your November 3, 2026 Statewide General Election ballot has either made it to your mailbox or is on its way. Once its ready, you can either put it in your mailbox or use the official drop box in front of the Belvedere Community Center (450 San Rafael Ave., lower level of City Hall). Need more...</description>
-      <pubDate>Mon, 02 Nov 2026 12:00:00 -0800</pubDate>
-      <guid isPermaLink="true">https://cityofbelvedere.gov/november-3-2026-general-election-where-when-to-vote/</guid>
-    </item>
     <item>
       <title>Emergency Sandbags</title>
       <link>https://cityofbelvedere.gov/emergency-sandbags/</link>
@@ -148,6 +141,13 @@
       <description>The Richardson Bay Audubon Center &amp; Sanctuary reminds the community that Sanctuary waters are closed to all boat traffic—including paddle boards, kayaks, and canoes—from October 1, 2026 through March 31, 2027 to protect tens of thousands of migratory birds. The 900-acre closure area, managed as a wildlife sanctuary by Audubon, is marked by buoys and...</description>
       <pubDate>Mon, 21 Sep 2026 12:00:00 -0700</pubDate>
       <guid isPermaLink="true">https://cityofbelvedere.gov/richardson-bay-wildlife-sanctuary-seasonal-boat-closure/</guid>
+    </item>
+    <item>
+      <title>City Manager Report</title>
+      <link>https://cityofbelvedere.gov/city-manager-report-2/</link>
+      <description>Most days in Belvedere, city government is what you don't notice. The parks are maintained for community use, building inspections help ensure safety, the streets are cleaned, and Council agendas address annual goals and issues as they arise. That's by design: in a small city, well-run government often appears seamless. But behind the scenes, it’s...</description>
+      <pubDate>Tue, 18 Aug 2026 12:00:00 -0700</pubDate>
+      <guid isPermaLink="true">https://cityofbelvedere.gov/city-manager-report-2/</guid>
     </item>
   </channel>
 </rss>
